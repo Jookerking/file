@@ -1,0 +1,961 @@
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+.mainIndex .stbanner a .bannerplate{
+    width: 100%;
+    text-align: center;
+    line-height: 600px;
+    display: block;
+    height: 600px;
+    background-color: #ededed;
+    color: #666 !important;
+    font-size: 46px;
+}
+.stPage .cnt-tab-1 .cnt-tab-1-title {
+    text-align: center;
+    color: #ffffff;
+}
+.stPage .cnt-tab-1 .resp-tabs-list {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.stPage .cnt-tab-1 .resp-tabs-list li {
+    border: none;
+    float: none;
+    min-width: 150px;
+    margin: 0 2px;
+    background: gray;
+    color: #fff;
+    padding: 7px 15px;
+}
+.stPage .cnt-tab-1 .resp-tabs-list li:first-child {
+    margin-left: 0;
+}
+.stPage .cnt-tab-1 .resp-tabs-list li:hover,.stPage .cnt-tab-1 .resp-tabs-list li.resp-tab-active {
+    background: #d5c496;
+    color: #000;
+}
+.stPage .cnt-tab-1 .resp-tabs-list li.resp-tab-active:after {
+    content: "";
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    margin-left: -15px;
+    border-color: #d5c496 transparent;
+    border-style: solid;
+    border-width: 18px 15px 0 15px;
+    height: 0;
+    width: 0;
+}
+.cnt-tab-featured-1 {
+    clear: both;
+    overflow: hidden;
+}
+.stPage a.cnt-tab-featured-1-item {
+    display: block;
+    text-decoration: none!important;
+    color: inherit;
+    position: relative;
+    font-size: 1.2rem;
+}
+.stPage .cnt-tab-1 .resp-tabs-list li.resp-tab-active {
+    position: relative;
+}
+.stPage .resp-tabs-container{
+    padding: 25px 0 0 0;
+    overflow: hidden;
+    border: none;
+}
+.stPage .resp-tabs-container .modCnt_tab_section_1{
+    display: none;
+}
+.stPage .resp-tabs-container .modCnt_tab_section_1:first-child{
+    display: block;
+}
+.stPage .cnt-tab-1 .cnt-tab-featured-1-text {
+    color: #fff;
+    text-align: left;
+}
+.cnt-tab-featured-1 .cnt-tab-featured-1-item .cnt-tab-featured-1-image img {
+    width: 100%;
+}
+/* OUR SHOPPES */
+.stContent a{
+    color:#333333;
+}
+.stContent .cnt-title-1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+.stContent  h1.cnt-title-1{
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+.stContent .cnt_paragraph_1 p{
+    font-size: 1.2rem;
+}
+.stContent .al-left {
+    text-align: left;
+}
+.stContent .cnt_list_3 .horizontal_list_container {
+    margin: 1.2rem 0;
+}
+.cnt_image_1 {
+    width: 100%;
+}
+.stContent .cnt_list_3 .cnt_image_1 {
+    width: auto;
+}
+.stContent .cnt_list_3 .horizontal_list_container>div.section {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px 10px 0;
+}
+.stContent .cnt_image_1 .al-center .caption {
+    text-align: center;
+}
+.stContent .modCnt_hotspot_1 {
+    min-width: 100%;
+    position: relative;
+}
+.stContent .modCnt_hotspot_1 .map {
+    width: 100%;
+    position: relative;
+}
+.stContent .modCnt_hotspot_1 .map img {
+    max-width: 100%;
+    width: 100%;
+}
+.stContent .modCnt_hotspot_1 div.dot {
+    height: 36px;
+    width: 36px;
+    margin-top: -13px;
+    margin-left: -13px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 33;
+}
+.stContent .modCnt_hotspot_item_1 {
+    height: 100%;
+    background-color: #FFF;
+    position: relative;
+    border: 1px solid #ccc;
+    margin: -5px 5px 5px;
+    -webkit-box-shadow: 2px 2px 5px 0 rgba(50,50,50,.6);
+    -moz-box-shadow: 2px 2px 5px 0 rgba(50,50,50,.6);
+    box-shadow: 2px 2px 5px 0 rgba(50,50,50,.6);
+    padding: 10px;
+    border-radius: 10px;
+}
+.modCnt_hotspot_item_1 .overlay .title {
+    color: #B5985A;
+    font-size: 28px;
+    line-height: 1em;
+    margin: 20px 0;
+}
+.modCnt_hotspot_item_1 .pods {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+.stContent .cnt_teaser_1 {
+    margin-bottom: 1.8rem;
+    background-color: #fff;
+}
+.stContent .cnt-teaser-1 {
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 10px 15px;
+}
+.stContent .cnt-teaser-1.align-center {
+    text-align: center;
+}
+.stContent .cnt-teaser-1.fullwidth {
+    padding-bottom: 0;
+}
+.stContent .cnt-teaser-1>h3 {
+    background-color: #f6f6f6;
+    color: #333;
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 14px;
+    margin: -10px -15px 10px -15px;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+.stContent .cnt-teaser-1 .cnt-body {
+    line-height: 1.5em;
+    font-size: 1.1rem;
+}
+.stContent .cnt-teaser-1.fullwidth .cnt-body {
+    margin: -10px -15px 0;
+    padding: 0;
+}
+.stContent .cnt-teaser-1 .cnt_image_1 {
+    margin-bottom: 5px;
+}
+.stContent .cnt-teaser-1 a {
+    color: #333;
+    text-decoration: none;
+    word-wrap: break-word;
+    white-space: normal;
+}
+.stContent .video_link h3{
+    font-size: 1.2rem;
+}
+.stContent .modCnt_col_3 {
+    margin: 0 0 10px;
+    clear: both;
+    float: none;
+    display: inline-block;
+    width: 100%;
+}
+.stContent .modCnt_col_3.center {
+    text-align: center;
+}
+.stContent .modCnt_col_3 .parsys {
+    padding: 0;
+}
+.stContent .modCnt_col_3 .parsys.par_col_1 {
+    padding: 0 1% 0 0;
+}
+.stContent .modCnt_col_3 .parsys.par_col_2 {
+    padding: 0 0.5%;
+}
+.stContent .modCnt_col_3 .parsys.par_col_3 {
+    padding:0 0 0 1%;
+}
+.stContent .modCnt_col_3 .parsys .cnt_image_1 {
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+#video-sec {
+    display: inline-block;
+}
+#video-sec .modal-dialog {
+    width: 80%;
+    margin: auto;
+}
+#video-sec .modal-header .close {
+    margin-top: -9px;
+}
+/* OUR SHOPPES--end */
+/* ASIA MARKETS */
+.mainIndex .stContent #sect-title{
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+.mainIndex .stContent .cnt-title-1 p{
+    font-size: 3rem;
+    text-align: center;
+}
+.mainIndex .stContent #main-content{
+    padding-left: 0;
+    padding-right: 0;
+}
+.mainIndex .stContent .image-area .swiper-slide{
+    background-color: #dbcba6;
+}
+.mainIndex .stContent .image-area .swiper-slide a:hover{
+    color: #000 !important;;
+}
+.mainIndex .stContent .image-area .swiper-slide img{
+    width: 100%;
+}
+.mainIndex .stContent .modCnt_scroller_index_1 {
+    padding: 0;
+    margin-top: 20px;
+}
+.modCnt_scroller_index_1 .image-area .footer {
+    height: 90px;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+.modCnt_scroller_index_1 .image-area .caption {
+    text-align: center;
+    width: 80%;
+    margin: 12px auto;
+    border: 1px solid transparent;
+    height: 80px;
+    overflow: hidden;
+}
+.modCnt_scroller_index_1 .image-area .caption h3 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    padding: 0;
+}
+.mainIndex .stContent #main-content .swiper-button-next,
+.mainIndex .stContent #main-content .swiper-button-prev{
+    top:unset;
+    bottom: 5%;
+}
+.mainIndex .stContent #main-content .swiper-button-next,
+.mainIndex .stContent #main-content .swiper-container-rtl .swiper-button-prev{
+    right: 30px;
+}
+.mainIndex .stContent #main-content .swiper-button-prev,
+.mainIndex .stContent #main-content .swiper-container-rtl .swiper-button-next{
+    left:30px
+}
+.mainIndex .stContent .image-area .swiper-button-next:after,
+.mainIndex .stContent .image-area .swiper-container-rtl .swiper-button-prev:after{
+    content: "";
+    position: absolute;
+    margin: auto;
+    display: block;
+    background: url(https://www.sandsretail.com/static/combine_sprite.png) no-repeat -10px -184px;
+    width: 40px;
+    height: 41px;
+    top: 50%;
+    margin-top: -20px;
+}
+.mainIndex .stContent .image-area .swiper-button-prev:after,
+.mainIndex .stContent .image-area .swiper-container-rtl .swiper-button-next:after{
+    content: "";
+    position: absolute;
+    margin: auto;
+    display: block;
+    background: url(https://www.sandsretail.com/static/combine_sprite.png) no-repeat -10px -244px;
+    width: 40px;
+    height: 41px;
+    top: 50%;
+    margin-top: -20px;
+}
+.mainIndex .stContent .image-area .swiper-pagination-bullet{
+    width: 10px;
+    height: 10px;
+    line-height: 20px;
+    color: #FFF;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, .7);
+    opacity: 1;
+    text-align: center;
+}
+.mainIndex .stContent .image-area .swiper-pagination-bullet-active {
+    background-color: #cb9623;
+}
+.mainIndex .stContent .image-area .swiper-container-horizontal>.swiper-pagination-bullets,
+.mainIndex .stContent .image-area .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 100px;
+    display: none;
+}
+.modCnt_scroller_index_1 .image-area-shadow {
+    background: transparent url(https://www.sandsretail.com/static/shadow-games.png) no-repeat center top;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    height: 20px;
+}
+/* .mainIndex .stContent #main-content .text-area .content p{
+    margin-bottom: 38px;
+} */
+.mainIndex .stContent #main-content .text-area ul{
+    list-style: disc;
+}
+.mainIndex .stContent #main-content .text-area li {
+    list-style: disc;
+    display: list-item;
+}
+a span.ext:after, a span.ico_ext:after, a.ico_ext:after {
+    background: transparent url(https://www.sandsretail.com/static/combine_sprite.png) no-repeat -10px -3601px;
+    width: 17px;
+}
+.mainIndex .stContent #main-content .text-area .ico_ext span{
+    display: inline-block;
+}
+/* ASIA MARKETS ---END*/
+/* asia-markets */
+.stContent table>thead>tr>th,
+.stContent table>tbody>tr>th,
+.stContent table>tfoot>tr>th,
+.stContent table>thead>tr>td,
+.stContent table>tbody>tr>td, 
+.stContent table>tfoot>tr>td{
+    padding: 8px;
+    vertical-align: top;
+}
+/* asia-markets end */
+/* cotai-strip */
+.al-center {
+    text-align: center;
+}
+/* cotai-strip---end */
+/* media-centre */
+.stContent .row{
+    display: block;
+}
+.stContent .cnt_ref_details_1 .detailBtnWrapper a.cnt_button_1 {
+    color: #FFF!important;
+    padding: 7px 40px;
+    cursor: pointer;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #bc9f53;
+    line-height: 100%;
+    margin: 0;
+    display: inline-block;
+}
+.stContent .cnt_ref_details_1 .detailBtnWrapper a span:after {
+    font-family: fontawesome;
+    background: 0 0;
+    content: "\f105";
+    font-size: 1.1em;
+    margin-left: 10px;
+    font-weight: 400;
+}
+/* media-centre---end */
+/* press-release */
+.stContent .modCnt_article_1 .title a {
+    font-size: 2.4rem;
+    color: #cb9623;
+    margin-bottom: 2px;
+}
+.stContent .modCnt_article_1 .link{
+    margin-top: 10px;
+}
+.stContent .modCnt_article_1 .link a {
+    text-decoration: none!important;
+    border-bottom: 1px dotted #d1ad5f;
+}
+.stContent .modCnt_article_1 .link:after {
+    content: "\f105";
+    font-family: fontawesome;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin-left: 3px;
+    color: #d1ad5f;
+    font-size: 14px;
+    font-weight: 700;
+}
+.stContent .modCnt_article_1 .divider {
+    height: 1px;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0 15px 0;
+}
+.stContent #sidebar .cnt_paragraph_1 h2 a {
+    text-decoration: none!important;
+    font-size: 1.9rem;
+}
+.stContent #sidebar .cnt_paragraph_1 h2 a:hover{
+    text-decoration: underline!important;
+}
+.stContent .cnt_image_1 .img_wrap {
+    position: relative;
+    display: inline-block;
+}
+.stContent .cnt_image_1 .img_wrap:hover .caption.overlay{
+    display: none;
+}
+.stContent .cnt_image_1 .caption {
+    text-align: left;
+}
+.stContent .cnt_image_1 .caption.overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(0,0,0,.5);
+    padding-left: 10px;
+    padding-top: 20px;
+    color: #fff;
+}
+.stContent p.subtext {
+    word-break: break-word;
+}
+/* press-release---end */
+/* shoppes-locations */
+.stContent .modCnt_location_1 {
+    margin-bottom: 40px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.stContent .modCnt_location_1 .location_wrap {
+    border: 1px solid #ccc;
+}
+.stContent .modCnt_location_1 .location_info {
+    padding: 10px;
+    min-width: 210px;
+    width: 100%;
+}
+.stContent .modCnt_location_1 .title {
+    font-size: 1.92rem;
+    font-weight: 400;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+.stContent sub,.stContent sup {
+    white-space: nowrap;
+}
+.stContent .modCnt_location_1 .location_img {
+    max-width: 140px;
+    width: 43%;
+    max-height: 155px;
+    height: auto;
+    float: left;
+    margin: 10px 10px 10px 0;
+    display: none;
+}
+.stContent .modCnt_location_1 .address_area {
+    float: left;
+    margin: 10px 10px 10px 0;
+    width: 53%;
+}
+.stContent .modCnt_location_1 .address_label {
+    font-weight: 700;
+}
+.stContent .modCnt_location_1 .phone {
+    margin: 10px auto 10px 0;
+}
+.stContent .modCnt_location_1 .address_area a {
+    font-weight: 700;
+}
+.stContent .modCnt_location_1 .map {
+    display: none;
+}
+.modCnt_location_1 .bottom_shadow {
+    height: 10px;
+}
+.modCnt_location_1>a {
+    display: block;
+    float: right;
+    clear: both;
+    margin-bottom: 10px;
+}
+.modCnt_location_1 .bottom_links.google {
+    background: url(https://www.sandsretail.com/static/combine_sprite.png) no-repeat 128px -150px;
+    padding-right: 17px;
+    margin-right: 4px;
+}
+/* shoppes-locations---end */
+/* shoppes-at-venetian */
+.stContent .cnt-scroller-1 {
+    overflow: hidden;
+    position: relative;
+    /* display: none; */
+}
+.stContent .cnt-scroller-1 .swiper-container {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.stContent .cnt-scroller-1 .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+  .stContent .cnt-scroller-1 .swiper-slide img{
+      width: 100%;
+  }
+.stContent .cnt-scroller-1 .gallery-top {
+    height: 80%;
+    width: 100%;
+  }
+.stContent .cnt-scroller-1 .cnt-swiper-bg{
+    background: #111;
+}
+.stContent .cnt-scroller-1 .swiper-button-next,
+.stContent .cnt-scroller-1 .swiper-button-prev{
+    width: 45px;
+    height: 45px;
+    background: rgba(0,0,0,.5);
+    text-shadow: 0 0 2px #000;
+    border-radius: 2px;
+    color:#ffffff;
+    font-weight: 900;
+    opacity: .5;
+}
+.stContent .cnt-scroller-1 .swiper-button-next:after,
+.stContent .cnt-scroller-1 .swiper-button-prev:after{
+    font-size:1.8rem;
+}
+.stContent .cnt-scroller-1 .gallery-thumbs {
+    height: 20%;
+    box-sizing: border-box;
+    padding-top: 10px;
+  }
+
+.stContent .cnt-scroller-1 .gallery-thumbs .swiper-slide {
+    height: 100%;
+    opacity: 0.4;
+  }
+  .stContent .cnt-scroller-1 .gallery-thumbs .swiper-slide img{
+    width: 100%;
+  }
+.stContent .cnt-scroller-1 .gallery-thumbs .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+.stContent .cnt-scroller-1 .caption{
+  opacity: 0;
+}
+.stContent .cnt-scroller-1 .caption-text {
+    color: #eee;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.4rem;
+    min-height: 29px;
+    line-height: 15px;
+    overflow: hidden;
+    width: 100%;
+    padding: 5px 10px 9px 10px;
+}
+.cnt-scroller-1 .cnt-swiper-bg .selected-bar {
+    display: none;
+    position: relative;
+    bottom: 5px;
+    left: 0;
+    height: 5px;
+    width: 100%;
+    background: #e9c372;
+    box-shadow: 0 0 6px -3px rgba(0,0,0,.5);
+}
+.stContent .cnt-tab-1 .resp-accordion{
+    display: none;
+}
+/* shoppes-at-venetian---end */
+@media (min-width: 321px){
+    .stContent .modCnt_location_1 .location_img {
+        display: block;
+    }
+}
+@media (min-width: 768px){
+    .stPage .resp-tabs-list {
+        background: url(https://www.sandsretail.com/static/nav_tab_1_shadow_light.png) bottom center no-repeat;
+    }
+    .stPage .cnt-tab-featured-1 {
+        margin-bottom: 1rem;
+    }
+    .stPage .cnt-tab-featured-1 .cnt_tab_featured_item_1 {
+        width: 18.75%;
+        margin: 0 1.5625% 0 0;
+        float: left;
+    }
+    .stPage .cnt-tab-featured-1 .cnt_tab_featured_item_1:last-child{
+        margin: 0;
+    }
+    .stPage .cnt-tab-featured-1-item .cnt-tab-featured-1-image {
+        position: relative;
+    }
+    .stPage .cnt-tab-featured-1 .cnt-tab-featured-1-item .cnt-tab-featured-1-image .overlay {
+        display: none;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,.8);
+        color: #fff;
+        z-index: 0;
+    }
+    .stPage .cnt-tab-featured-1 .cnt-tab-featured-1-item .cnt-tab-featured-1-image .overlay-link {
+        display: none;
+        content: attr(data-link-text);
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        color: #fff;
+        z-index: 100;
+        padding: 5px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .stPage .cnt-tab-featured-1 .cnt-tab-featured-1-item:hover .cnt-tab-featured-1-image .overlay,
+    .stPage .cnt-tab-featured-1 .cnt-tab-featured-1-item:hover .cnt-tab-featured-1-image .overlay-link {
+        display: block
+    }
+    .stContent .modCnt_hotspot_1 {
+        margin-bottom: 50px;
+    }
+    .stContent .modCnt_hotspot_1 div.dot:before,.stContent .modCnt_hotspot_1 div.dot.active:before {
+        content: "";
+        background-color: #9c7e3e;
+        border: 5px solid transparent;
+        border-radius: 50%;
+        display: block;
+        height: 16px;
+        width: 16px;
+        margin: 6px auto;
+        -webkit-box-shadow: 3px 3px 5px 0 rgba(50,50,50,.6);
+        -moz-box-shadow: 3px 3px 5px 0 rgba(50,50,50,.6);
+        box-shadow: 3px 3px 5px 0 rgba(50,50,50,.6);
+    }
+    .stContent .modCnt_hotspot_1 .hotspot_items {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .stContent .publisher .cnt_hotspot_item_1.section,.stContent .publisher .cnt_hotspot_container {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .stContent .publisher .modCnt_hotspot_item_1 {
+        height: 100%;
+        background-color: transparent;
+        position: relative;
+        border: none;
+        margin: 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        padding: 0;
+        border-radius: 0;
+    }
+    .stContent .publisher .modCnt_hotspot_item_1 img {
+        display: none;
+        position: absolute;
+        float: none;
+        z-index: 20;
+    }
+    .stContent .publisher .modCnt_hotspot_item_1 .overlay {
+        display: none;
+        width: 360px;
+        height: auto;
+        position: absolute;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        -webkit-box-shadow: 2px 2px 5px 0 rgba(50,50,50,.6);
+        -moz-box-shadow: 2px 2px 5px 0 rgba(50,50,50,.6);
+        box-shadow: 2px 2px 5px 0 rgba(50,50,50,.6);
+        z-index: 25;
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out;
+    }
+    .stContent .modCnt_hotspot_item_1 .overlay .title {
+        margin: 10px 0;
+    }
+    .stContent .publisher .modCnt_hotspot_item_1 .pods {
+        position: absolute;
+        width: 100%;
+        bottom: -45px;
+    }
+    .stContent .cnt_hotspot_item_1.section:first-child .pods {
+        display: block;
+    }
+    .stContent .publisher .modCnt_hotspot_item_1 div.pod {
+        width: 24%;
+        height: 100px;
+        position: relative;
+        float: left;
+        margin-right: 1%;
+        text-align: center;
+        background: url(https://www.sandsretail.com/static/hotspot-pod-bg.jpg) repeat-x;
+        padding: 0;
+        -webkit-border-bottom-right-radius: 5px;
+        -webkit-border-bottom-left-radius: 5px;
+        -moz-border-radius-bottomright: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .stContent .publisher .modCnt_hotspot_item_1 .tx.number {
+        color: #B4975A;
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: 29px;
+        font-weight: 400;
+        height: 56px;
+        line-height: 59px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        text-transform: none;
+    }
+    .stContent .publisher .modCnt_hotspot_item_1 .tx.description span {
+        vertical-align: middle;
+        text-align: center;
+        color: #FFF;
+        font-size: 11px;
+        margin: 0 2px;
+        padding: 0;
+        line-height: 1.2em;
+        display: inline-block;
+    }
+    .stContent .publisher .modCnt_hotspot_item_1 .tx.description {
+        height: 45px;
+        line-height: 45px;
+    }
+    .modCnt_scroller_index_1 .image-area .caption {
+        min-height: 80px;
+        height: auto;
+    }
+    .modCnt_scroller_index_1 .subtext {
+        margin: 0 70px;
+    }
+    .cnt_ref_details_1 .wi .main, .original .cnt_ref_details_1 .wi .main {
+        width: 66%;
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+    .cnt_ref_details_1 .wi .main.middle {
+        vertical-align: middle;
+    }
+    .cnt_ref_details_1 .rest-img-4, .original .cnt_ref_details_1 .rest-img-4 {
+        padding-right: 0;
+        width: 33%;
+        display: inline-block;
+        float: none;
+        margin: 20px 0 10px;
+    }
+    .stContent .modCnt_location_1 .location_wrap {
+        display: table-row;
+    }
+    .stContent .modCnt_location_1 .location_info {
+        background: transparent url(https://www.sandsretail.com/static/map-item-shadow.png) no-repeat right center;
+        min-width: 210px;
+        display: table-cell;
+        vertical-align: top;
+        border: 1px solid #ccc;
+        border-right: none;
+    }
+    .stContent .modCnt_location_1 .location_img {
+        display: none;
+    }
+    .stContent .modCnt_location_1 .address_area {
+        width: auto;
+    }
+    .stContent .modCnt_location_1 .map {
+        display: table-cell;
+        width: 400px;
+        border: 1px solid #ccc;
+        border-left: none;
+    }
+    .stContent .modCnt_location_1 .map img {
+        width: 400px;
+        height: 260px;
+    }
+    .modCnt_location_1 .bottom_shadow {
+        width: 100%;
+        height: 10px;
+        background: transparent url(https://www.sandsretail.com/static/shadow-games.png) no-repeat center top;
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+    }
+    .stContent .modCnt_location_1>a {
+        display: block;
+        clear: none;
+    }
+    .stContent .modCnt_location_1 .bottom_shadow+a {
+        float: left;
+    }
+    .cnt-scroller-1 .cnt-swiper-bg .selected .selected-bar {
+        display: block;
+    }
+}
+@media (min-width: 992px){
+    .stContent .modCnt_location_1 .location_img {
+        display: block;
+    }
+    .stContent .modCnt_location_1 .address_area {
+        width: 55%;
+    }
+}
+@media (max-width: 768px){
+    .stPage .resp-tabs-list {
+        background: url(https://www.sandsretail.com/static/nav_tab_1_shadow_light.png) bottom center no-repeat;
+    }
+    .stPage .cnt-tab-1 .resp-tabs-list{
+        display: none;
+    }
+    .stPage .resp-tabs-container .modCnt_tab_section_1{
+        display: block!important;
+    }
+    .stPage .resp-tabs-container .modCnt_tab_section_1 .modCnt_con_s_1{
+        display: none;
+        overflow: hidden;
+    }
+    .stPage .resp-tabs-container .modCnt_tab_section_1:first-child .modCnt_con_s_1{
+        display: block;
+    }
+    .stContent .cnt-tab-1 .resp-accordion{
+        width: 100%;
+        background: gray;
+        color: #fff;
+        border: none;
+        padding: 7px 15px;
+        text-align: center;
+        margin: 5px 0;
+        padding-right: 28px;
+        display: block;
+        font-size: 1.2rem;
+        position: relative;
+    }
+    .stContent .cnt-tab-1 .resp-accordion:after{
+        /* content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-color: #000 transparent;
+        border-width: 12px 6px 0 6px;
+        left: unset;
+        right: 2%;
+        bottom: 28%;
+        transform:rotate(-180deg); */
+        content: "";
+        position: absolute;
+        right: 6%;
+        bottom: 28%;
+        margin-left: -15px;
+        border-color: #fff transparent;
+        border-style: solid;
+        border-width: 12px 6px 0 6px;
+        height: 0;
+        width: 0;
+    }
+    .stContent .cnt-tab-1 .ad-active{
+        background: #d5c496!important;
+        color: #000;
+    }
+    .stContent .cnt-tab-1 .ad-active:after{
+        border-color: #000 transparent;
+        transform:rotate(-180deg);
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .mainIndex .stContent #main-content .swiper-button-next,
+    .mainIndex .stContent #main-content .swiper-button-prev{
+        display: none;
+    }
+    .mainIndex .stContent .image-area .swiper-container-horizontal>.swiper-pagination-bullets,
+    .mainIndex .stContent .image-area .swiper-pagination-custom, .swiper-pagination-fraction{
+        display: block;
+    }
+    .modCnt_scroller_index_1 .subtext {
+        padding: 0 5px;
+    }
+    .stContent .cnt-scroller-1 .gallery-thumbs{
+        display: none;
+    }
+}
